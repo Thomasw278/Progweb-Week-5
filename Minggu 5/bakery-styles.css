@@ -1,0 +1,148 @@
+@charset "UTF-8";
+body {
+  font-family: Georgia, serif;
+  font-size: 100%;
+  background-color: white;
+  margin:0;
+  padding: 0;
+}
+
+/* link styles */
+a:link, a:visited { color: #DC6903; }
+a:focus, a:hover, a:active { color: #F9AB33; }
+
+
+/* header styles */
+header {
+  color: white;
+  background:  url(images/croissants_banner.jpg) no-repeat center center;
+  background-size: cover; 
+  text-align: center;
+  padding-bottom: 3px;
+}
+
+/* Buat Padding untuk p di header */
+header p {
+  font-style: italic;
+  font-size: 1.2em;
+  text-align: center;
+  padding-bottom: 25px;
+}
+
+/* Buat Header bagian nav */
+header a{
+  text-decoration: underline;
+  text-decoration-style:dotted ;
+  text-underline-offset: 6px;
+}
+
+/* Buat Padding untuk H1 gambar */
+header h1 {
+  padding-top: 25px;
+}
+ul {
+  margin-top: 0px !important;
+}
+/* nav styles */
+nav, footer {
+  font-family: verdana, sans-serif;
+  background-color: #783F27;
+}
+nav ul li a:link, nav ul li a:visited {
+  color: #F9AB33;
+}
+nav ul li a:focus, nav ul li a:hover, nav ul li a:active {
+  color: #fff;
+}
+nav ul li {
+  font-size: .8em;
+  text-transform: uppercase;
+  letter-spacing: .2em;
+}
+
+/* Buat Gambar Penghargaan */
+#award {
+  position: absolute;
+  top: 25px;
+  left:50px;
+}
+
+/* main "products" styles */
+main {
+  font-family: 'Stint Ultra Expanded', cursive;
+  background-color: white;
+  line-height: 1.8em;
+  color: #555;
+  margin: 35px 20px 30px 45px;
+  border: 3px solid wheat;
+  border-radius: 25px;
+  padding: 20px 20px 0px 20px;
+}
+
+.more > a {
+  text-decoration: underline;
+  text-decoration-style: dotted;
+}
+
+h2 {
+  padding-bottom: 25px;
+  font-weight: normal;
+}
+h3 {
+  text-transform: uppercase;
+  letter-spacing: .2em;
+  color: #7A0002;
+  padding-left: 15px;
+  border-left: 4px solid #7A0002;
+  border-top: 2px solid #7A0002;
+}
+p.more {
+  font-family: verdana, sans-serif;
+  text-transform: uppercase;
+  font-size: .8em;
+  padding-bottom: 25px;
+}
+p img:nth-child(odd){
+  float: left;
+  margin: 0 10px 10px 0;
+}
+
+main h2 +  h3 + p img {
+  shape-outside: ellipse(50% 36.5% at 45% 47%);
+}
+
+main h3 + p{
+  float: left;
+}
+/* aside "hours" styles */
+aside {
+  background: url(images/scallop.png) repeat-y left top;
+  background-color: #F6F3ED;
+  margin-left: 150px;
+  padding-left: 5%;
+  padding-bottom: 20px;
+  margin-right:20px;
+  border-top-right-radius: 20px;
+}
+
+aside h2 {
+  padding-bottom: 0%; 
+  padding-top: 3%;
+}
+/* misc styles */
+footer {
+  color: #EADDC4;
+  text-align: center;
+  font-size: .8em;
+  padding-top: 20px;
+  padding-bottom:10px;
+}
+h2 {
+  font-family: 'Stint Ultra Expanded', cursive;
+}
+.day {
+  color: #783F27;
+  font-family: verdana, sans-serif;
+  font-size: .8em;
+  text-transform: uppercase;
+}
